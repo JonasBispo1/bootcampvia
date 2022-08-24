@@ -49,3 +49,34 @@ Cypress.Commands.add("listArray", (cargo, elemento) => {
         })
     })
 })
+
+Cypress.Commands.add("cadastrarUsuario", (nome,email,password) => {
+    cy.get('input[name="name"]').type(nome)
+    cy.get('input[name="email"]').type(email)
+    cy.get('input[name="password"]').type(password)
+    cy.get('input[name="password2"]').type(password)
+    cy.get('input[data-test="register-submit"]').click()
+})
+
+Cypress.Commands.add("valida_cadastro_sucesso", (nome,email,password) => {
+    cy.get('h1[class="large text-primary"]').should('contain','Dashboard')
+    cy.get('a[data-test="dashboard-createProfile"]').should('exist')
+})
+
+Cypress.Commands.add("perfil_empresarial", () => {
+    cy.get('input[name="company"]').type('Viahuber')
+    cy.get('input[name="website"]').type('https://www.coisanenhuma.com/')
+    cy.get('input[name="location"]').type('São Paulo - Osasco')
+    cy.get('input[name="githubusername"]').type('https://github.com/JonasBispo1/')
+    cy.get('textarea[name="bio"]').type('este campo não será possível preencher, chame para um churrasco')
+    cy.get('button[data-test="profile-socials"]').click()
+    cy.get('input[name="twitter"]').should('exist')
+    cy.get('input[name="twitter"]').type('https://www.twitter.com/')
+    cy.get('input[name="facebook"]').type('https://www.facebook.com/')
+    cy.get('input[name="youtube"]').type('https://www.youtube.com/')
+    cy.get('input[name="linkedin"]').type('https://www.linkedin.com/')
+    cy.get('input[name="instagram"]').type('https://www.instagram.com/')
+    cy.get('input[name="medium"]').type('https://www.medium.com/')
+})
+
+
