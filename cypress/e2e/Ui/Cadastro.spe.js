@@ -19,11 +19,10 @@ describe('US0002 - Funcionalidade: Cadastro', () => {
         cy.get('div[class="alert alert-danger"]').should('contain','Usuário já registrado')
     });
 
-    it('Deve criar perfil com sucesso', () => {
+    it.only('Deve criar perfil com sucesso', () => {
         cy.cadastrarUsuario('Jonas Bispo',faker.internet.email(),'teste123')
         cy.valida_cadastro_sucesso()
         cy.get('a[data-test="dashboard-createProfile"]').click()
-
         cy.listArray('QAE Sênior','div[id="mui-component-select-status"]')
         cy.perfil_empresarial()
         cy.get('input[name="skills"]').type('robot framework; C#; Java ...')
@@ -35,10 +34,8 @@ describe('US0002 - Funcionalidade: Cadastro', () => {
     it('Deve criar perfil sem preencher campo obrigatório "Conhecimentos"', () => {
         cy.cadastrarUsuario('Jonas Bispo',faker.internet.email(),'teste123')
         cy.valida_cadastro_sucesso()
-        cy.get('h1[class="large text-primary"]').should('contain','Dashboard')
-        cy.get('a[data-test="dashboard-createProfile"]').should('exist')
         cy.get('a[data-test="dashboard-createProfile"]').click()
-
+        cy.listArray('QAE Sênior','div[id="mui-component-select-status"]')
         cy.perfil_empresarial()
         cy.get('input[data-test="profile-submit"]').click()
         cy.get('div[data-test="profile-skills"] p').should('contain', 'Conhecimentos é obrigatório')

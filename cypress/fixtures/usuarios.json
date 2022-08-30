@@ -1,0 +1,15 @@
+[
+    {
+        "email":"jonas.neto-ext@viavarejo.com.br",
+        "senha":"jonas123"
+    },
+    {
+        "email":"jonas.neto01-ext@viavarejo.com.br",
+        "senha":"jonas123"
+    },
+    {
+        "email":"jonas.neto02-ext@viavarejo.com.br",
+        "senha":"jonas123",
+        "perfil":"admin"
+    }
+]
