@@ -1,15 +1,76 @@
 [
     {
+        "nome": "Jonas Bispo",
         "email":"jonas.neto-ext@viavarejo.com.br",
-        "senha":"jonas123"
+        "senha":"jonas123",
+        "experiencia_profissional":[
+            {
+                "posicao":"QA",
+                "empresa":"Via",
+                "localizacao":"SCS",
+                "dataInicio":"01/02/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"teste"
+            },
+            {
+                "posicao":"QA senior",
+                "Empresa":"Via",
+                "localizacao":"SCS",
+                "dataInicio":"01/03/2022",
+                "dataFim":"Atual",
+                "descricao":"desenvolvimento de automação de testes"
+            }
+        ],
+        "formacao_academica":[
+            {
+                "escola":"escola do usuario 01-01",
+                "grau":"superior",
+                "curso":"Engenharia",
+                "dataInicio":"01/01/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"engenharia"
+            },
+            {
+                "escola":"escola do usuario 01-02",
+                "grau":"superior",
+                "curso":"Engenharia",
+                "dataInicio":"01/01/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"engenharia"
+            }
+        ]
     },
     {
         "email":"jonas.neto01-ext@viavarejo.com.br",
-        "senha":"jonas123"
-    },
-    {
-        "email":"jonas.neto02-ext@viavarejo.com.br",
-        "senha":"jonas123",
-        "perfil":"admin"
+        "senha":"teste123",
+        "experiencia_profissional":[
+            {
+                "posicao":"QA",
+                "empresa":"Via",
+                "localizacao":"SCS",
+                "dataInicio":"01/02/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"teste"
+            },
+            {
+                "posicao":"QA senior",
+                "Empresa":"Via",
+                "localizacao":"SCS",
+                "dataInicio":"01/03/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"desenvolvimento de automação de testes"
+            }
+        ],
+        "formacao_academica":[
+            {
+                "escola":"escola do usuario 02",
+                "grau":"superior",
+                "curso":"Engenharia",
+                "dataInicio":"01/01/2022",
+                "dataFim":"01/03/2022",
+                "descricao":"engenharia"
+            }
+        ]
+
     }
 ]

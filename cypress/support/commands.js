@@ -32,6 +32,14 @@ Cypress.Commands.add('navigate', (route) => {
     cy.wait('@loadpage')
 })
 
+Cypress.Commands.add('troca_user',(email, password) =>{
+    cy.get('a[data-test="navbar-logout"] span').click() 
+    cy.visit('login')
+    cy.get('input[type="email"]').clear().type(email)
+    cy.get('input[type="password"]').type(password)
+    cy.get('input[type="submit"]').click() 
+})
+
 Cypress.Commands.add("login", (email, password) => {
     cy.get('input[type="email"]').clear().type(email)
     cy.get('input[type="password"]').type(password)

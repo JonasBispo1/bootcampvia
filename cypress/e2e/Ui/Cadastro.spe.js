@@ -20,7 +20,7 @@ describe('US0002 - Funcionalidade: Cadastro', () => {
     });
 
     it.only('Deve criar perfil com sucesso', () => {
-        cy.cadastrarUsuario('Jonas Bispo',faker.internet.email(),'teste123')
+        cy.cadastrarUsuario('Jonas Bispo','jonas.neto01-ext@viavarejo.com.br','teste123')
         cy.valida_cadastro_sucesso()
         cy.get('a[data-test="dashboard-createProfile"]').click()
         cy.listArray('QAE Sênior','div[id="mui-component-select-status"]')
