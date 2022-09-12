@@ -26,6 +26,9 @@
 
 /// <reference types="Cypress" />
 
+import auth from '../fixtures/auth.json'
+import dadosUser from '../fixtures/usuarios.json'
+
 Cypress.Commands.add('navigate', (route) => {
     cy.intercept(route).as('loadpage')
     cy.visit(route, { timeout: 30000 })
@@ -75,7 +78,7 @@ Cypress.Commands.add("perfil_empresarial", () => {
     cy.get('input[name="company"]').type('Viahuber')
     cy.get('input[name="website"]').type('https://www.coisanenhuma.com/')
     cy.get('input[name="location"]').type('São Paulo - Osasco')
-    cy.get('input[name="githubusername"]').type('https://github.com/JonasBispo1/')
+    cy.get('input[name="githubusername"]').type('JonasBispo1')
     cy.get('textarea[name="bio"]').type('este campo não será possível preencher, chame para um churrasco')
     cy.get('button[data-test="profile-socials"]').click()
     cy.get('input[name="twitter"]').should('exist')
@@ -85,6 +88,64 @@ Cypress.Commands.add("perfil_empresarial", () => {
     cy.get('input[name="linkedin"]').type('https://www.linkedin.com/')
     cy.get('input[name="instagram"]').type('https://www.instagram.com/')
     cy.get('input[name="medium"]').type('https://www.medium.com/')
+})
+
+
+Cypress.Commands.add("tokenJwt", () => {
+    cy.request({
+        method: 'POST',
+        url:'/api/auth',
+        body: auth
+    }).then((response) => {
+        return response.body.jwt
+    })
+})
+
+Cypress.Commands.add("criarPostagem", (token,value) => {
+    cy.request({
+        method: 'POST',
+        url:'/api/posts',
+        headers: { Cookies: token },
+        body: { text: value }
+    })
+})
+
+Cypress.Commands.add("criarProfile", (token) => {
+    cy.request({
+        method:'POST',
+        url:'/api/profile/',
+        headers: { Cookies: token },
+        body: dadosUser[0].profile
+    })
+})
+
+Cypress.Commands.add("trazerPostagem", (token,id) => {
+    cy.request({
+        method: 'GET',
+        url:`/api/posts/${id}`,
+        headers: { Cookies: token },
+    })
+})
+
+Cypress.Commands.add("dadosUsuario", (token) => {
+    cy.request({
+        method:'GET',
+        url:'/api/profile/me/',
+        headers: {
+            Cookies: token
+        }
+    })
+})
+
+Cypress.Commands.add("methodAPI", (token,method_,url_,body_) => {
+    cy.request({
+        method:method_,
+        url:url_,
+        body:body_,
+        headers: {
+            Cookies: token
+        }
+    })
 })
 
 

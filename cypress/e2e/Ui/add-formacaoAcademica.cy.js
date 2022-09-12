@@ -55,7 +55,6 @@ describe('Funcionalidade: Adicionar formação academica', () => {
                         user[u].formacao_academica[i].descricao)
                     cy.get('table[class="table"]:nth-child(7) td').first().should('contain', user[u].formacao_academica[i].escola)
                 }
-
             }
         })
     });

@@ -1,8 +1,75 @@
 [
     {
         "nome": "Jonas Bispo",
+        "email":"jonas.nt@teste.com",
+        "senha":"teste1234",
+        "profile":
+        {
+            "company": "company LTDA",
+            "status": "motivado",
+            "location": "casa da bruxa",
+            "website": "www.coisanenhuma.com.br",
+            "skills": "automação",
+            "bio": "humano",
+            "githubusername": "JonasBispo1",
+            "youtube": "youtube.com.br",
+            "twitter": "twitter.com.br",
+            "facebook": "facebook.com.br",
+            "linkedin": "linkedin.com.br",
+            "instagram": "instagram.com.br",
+            "medium": "medium.com.br"
+        },
+        "experiencia_profissional":[
+            {
+                "title": "QA",
+                "company": "viahub",
+                "location": "SBC",
+                "from": "2021-09-12",
+                "to": "2022-09-12",
+                "current": false,
+                "description": "nada a declarar"
+            },
+            {
+                "posicao":"QA senior",
+                "Empresa":"Via",
+                "localizacao":"SCS",
+                "dataInicio":"01/03/2022",
+                "dataFim":"Atual",
+                "descricao":"desenvolvimento de automação de testes"
+            }
+        ],
+        "formacao_academica":[
+            {
+                "school": "escola do bagulho",
+                "degree": "superior",
+                "fieldofstudy": "Engenharia",
+                "from": "2021-09-12",
+                "to": "2022-09-12",
+                "current": false,
+                "description": "engenheiro"
+            }
+        ]
+    },
+    {
+        "nome": "Jonas Bispo",
         "email":"jonas.neto-ext@viavarejo.com.br",
         "senha":"jonas123",
+        "profile":
+        {
+            "company": "company LTDA",
+            "status": "motivado",
+            "location": "casa da bruxa",
+            "website": "www.coisanenhuma.com.br",
+            "skills": "automação",
+            "bio": "humano",
+            "githubusername": "https://github.com/JonasBispo1/",
+            "youtube": "youtube.com.br",
+            "twitter": "twitter.com.br",
+            "facebook": "facebook.com.br",
+            "linkedin": "linkedin.com.br",
+            "instagram": "instagram.com.br",
+            "medium": "medium.com.br"
+        },
         "experiencia_profissional":[
             {
                 "posicao":"QA",
@@ -72,5 +139,10 @@
             }
         ]
 
+    },
+    {
+        "name": "teste",
+        "email": "teste@123.com.br",
+        "password": "teste123"
     }
 ]
