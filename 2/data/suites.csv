@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Thu Sep 15 19:07:17 GMT 2022","Thu Sep 15 19:07:18 GMT 2022","545","","Teste de alteração de postagem","","","","[PUT] - curtir uma postagem",""
-"failed","Thu Sep 15 19:06:25 GMT 2022","Thu Sep 15 19:06:39 GMT 2022","13253","Validar meus pedidos","Dado que acesso meus pedidos","","","","E realizo o login",""
-"failed","Thu Sep 15 19:05:55 GMT 2022","Thu Sep 15 19:06:25 GMT 2022","30219","Validar meus pedidos","Dado que acesso meus pedidos","","","","Quando acesso a url ""https://meuspedidos.casasbahia.com.br/""",""
-"failed","Thu Sep 15 19:06:58 GMT 2022","Thu Sep 15 19:07:11 GMT 2022","12463","","US0002 - Funcionalidade: Cadastro","","","","Deve criar perfil com sucesso",""
-"failed","Thu Sep 15 19:06:39 GMT 2022","Thu Sep 15 19:06:42 GMT 2022","3159","Validar meus pedidos","Dado que acesso meus pedidos","","","","Então visualizo a pagina de meus pedidos",""
