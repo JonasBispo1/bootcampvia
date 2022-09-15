@@ -1,0 +1,360 @@
+{
+  "uid" : "77507cd1fc4f7bfe",
+  "name" : "Validar lista vazia",
+  "fullName" : "Validar lista vazia",
+  "historyId" : "f5306b0ed7060569f06731d7f3b1bbb4",
+  "time" : {
+    "start" : 1663265609183,
+    "stop" : 1663265615324,
+    "duration" : 6141
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265609185,
+        "stop" : 1663265614323,
+        "duration" : 5138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit perfis",
+        "time" : {
+          "start" : 1663265609212,
+          "stop" : 1663265611424,
+          "duration" : 2212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265611424,
+          "stop" : 1663265611424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265611424,
+          "stop" : 1663265611424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265611424,
+          "stop" : 1663265611424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conexaoqa.herokuapp.com/api/profile",
+        "time" : {
+          "start" : 1663265611424,
+          "stop" : 1663265611424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"{ method: 'GET', url: 'api/profile' }\"; \"{ statusCode: 200, fixture: 'profile' }\")",
+        "time" : {
+          "start" : 1663265611425,
+          "stop" : 1663265612143,
+          "duration" : 718
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "reload",
+        "time" : {
+          "start" : 1663265612143,
+          "stop" : 1663265614321,
+          "duration" : 2178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265614321,
+          "stop" : 1663265614321,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265614321,
+          "stop" : 1663265614321,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265614321,
+          "stop" : 1663265614321,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET /api/profile",
+        "time" : {
+          "start" : 1663265614321,
+          "stop" : 1663265614321,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    }, {
+      "name" : "intercept (\"api/profile\"; \"{ statusCode: 404 }\")",
+      "time" : {
+        "start" : 1663265614337,
+        "stop" : 1663265614368,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "reload",
+      "time" : {
+        "start" : 1663265614368,
+        "stop" : 1663265615253,
+        "duration" : 885
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=eb60747d15",
+      "time" : {
+        "start" : 1663265615252,
+        "stop" : 1663265615252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=eb60747d15",
+      "time" : {
+        "start" : 1663265615252,
+        "stop" : 1663265615252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=eb60747d15",
+      "time" : {
+        "start" : 1663265615252,
+        "stop" : 1663265615252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://conexaoqa.herokuapp.com/api/profile",
+      "time" : {
+        "start" : 1663265615252,
+        "stop" : 1663265615252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get [data-test=\"profiles-noProfiles\"]",
+      "time" : {
+        "start" : 1663265615253,
+        "stop" : 1663265615295,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1663265615295,
+        "stop" : 1663265615323,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h4>** to contain **Nenhum perfil encontrado**",
+      "time" : {
+        "start" : 1663265615323,
+        "stop" : 1663265615323,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 21,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Funcionalidade: Visualização dos perfis"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77507cd1fc4f7bfe.json",
+  "parameterValues" : [ ]
+}

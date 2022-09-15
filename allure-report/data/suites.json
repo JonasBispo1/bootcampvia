@@ -1,0 +1,185 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "[POST] - Teste de criação de Profile",
+    "children" : [ {
+      "name" : "criar um profile",
+      "uid" : "b466495aebabe83d",
+      "parentUid" : "665c3a83cc68b27639070598c4703b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265592997,
+        "stop" : 1663265594564,
+        "duration" : 1567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "665c3a83cc68b27639070598c4703b07"
+  }, {
+    "name" : "[GET] - Teste de consulta profile",
+    "children" : [ {
+      "name" : "Consultar um profile",
+      "uid" : "ff4ceb2fd323c926",
+      "parentUid" : "aec518f17f6bea1eb059affc504ee64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265594570,
+        "stop" : 1663265597893,
+        "duration" : 3323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[GET] - Consultar um profile por ID",
+      "uid" : "b61b1affc6e09cce",
+      "parentUid" : "aec518f17f6bea1eb059affc504ee64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265597967,
+        "stop" : 1663265598853,
+        "duration" : 886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[GET] - Selecionar perfil do usuário pelo ID",
+      "uid" : "6b9511a05242cdc0",
+      "parentUid" : "aec518f17f6bea1eb059affc504ee64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265598854,
+        "stop" : 1663265599609,
+        "duration" : 755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[GET] - Selecionar usuário GITHUB",
+      "uid" : "b86486329ca42d43",
+      "parentUid" : "aec518f17f6bea1eb059affc504ee64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265599610,
+        "stop" : 1663265600425,
+        "duration" : 815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aec518f17f6bea1eb059affc504ee64a"
+  }, {
+    "name" : "[PUT] - Testes de modificação",
+    "children" : [ {
+      "name" : "Adicionar experiência proficional",
+      "uid" : "71d6b8e040babbd9",
+      "parentUid" : "bfe5c47100366a1f3e0c8117baf4c93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265600426,
+        "stop" : 1663265601029,
+        "duration" : 603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adicionar nova formação academica",
+      "uid" : "8c70271e20531007",
+      "parentUid" : "bfe5c47100366a1f3e0c8117baf4c93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265601030,
+        "stop" : 1663265601553,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bfe5c47100366a1f3e0c8117baf4c93c"
+  }, {
+    "name" : "[DELETE] - Teste de exclusão",
+    "children" : [ {
+      "name" : "Excluir uma uducação adicionada",
+      "uid" : "9731fb7284b3aac9",
+      "parentUid" : "043b70fc5927d974f5ff3efcf539da10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265601554,
+        "stop" : 1663265602663,
+        "duration" : 1109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Excluir uma experiencia",
+      "uid" : "d3a861d5a05c5634",
+      "parentUid" : "043b70fc5927d974f5ff3efcf539da10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265602665,
+        "stop" : 1663265603444,
+        "duration" : 779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Excluir uma conta de usuário",
+      "uid" : "66e92db54660717f",
+      "parentUid" : "043b70fc5927d974f5ff3efcf539da10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265603446,
+        "stop" : 1663265604350,
+        "duration" : 904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "043b70fc5927d974f5ff3efcf539da10"
+  }, {
+    "name" : "Funcionalidade: Visualização dos perfis",
+    "children" : [ {
+      "name" : "Validar lista vazia",
+      "uid" : "77507cd1fc4f7bfe",
+      "parentUid" : "98db0f63056b91c8f0709d82cb36ed4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663265609183,
+        "stop" : 1663265615324,
+        "duration" : 6141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "98db0f63056b91c8f0709d82cb36ed4a"
+  }, {
+    "name" : "US0002 - Funcionalidade: Cadastro",
+    "children" : [ {
+      "name" : "Deve criar perfil com sucesso",
+      "uid" : "45261e6c3d43eca0",
+      "parentUid" : "1af95cd50da77bae656c1f490130163a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1663265635806,
+        "stop" : 1663265648268,
+        "duration" : 12462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1af95cd50da77bae656c1f490130163a"
+  } ]
+}

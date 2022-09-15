@@ -1,0 +1,137 @@
+{
+  "uid" : "71d6b8e040babbd9",
+  "name" : "Adicionar experiência proficional",
+  "fullName" : "Adicionar experiência proficional",
+  "historyId" : "663476b52078fa5f35b6f756b8697da0",
+  "time" : {
+    "start" : 1663265600426,
+    "stop" : 1663265601029,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265600426,
+        "stop" : 1663265600784,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265600444
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265600444,
+            "stop" : 1663265600782,
+            "duration" : 338
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMCwiZXhwIjoxNjYzMjY5MjAwfQ.LO8ojpM_nU7Ht7hf0mSWAvbM-XN2eyzsfVEAdotDleY\"; \"PUT\"; \"/api/profile/experience\"; \"{ title: 'QA',\n  company: 'viahub',\n  location: 'SBC',\n  from: '2021-09-12',\n  to: '2022-09-12',\n  current: false,\n  description: 'nada a declarar' }\")",
+      "time" : {
+        "start" : 1663265600786
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "PUT 200 /api/profile/experience",
+        "time" : {
+          "start" : 1663265600786,
+          "stop" : 1663265601027,
+          "duration" : 241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1663265601029,
+        "stop" : 1663265601029,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[PUT] - Testes de modificação"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71d6b8e040babbd9.json",
+  "parameterValues" : [ ]
+}

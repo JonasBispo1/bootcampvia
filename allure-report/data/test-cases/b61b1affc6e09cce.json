@@ -1,0 +1,173 @@
+{
+  "uid" : "b61b1affc6e09cce",
+  "name" : "[GET] - Consultar um profile por ID",
+  "fullName" : "[GET] - Consultar um profile por ID",
+  "historyId" : "3f28ec58765aaf3344aeccf088d17306",
+  "time" : {
+    "start" : 1663265597967,
+    "stop" : 1663265598853,
+    "duration" : 886
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265597968,
+        "stop" : 1663265598389,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265598090
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265598091,
+            "stop" : 1663265598388,
+            "duration" : 297
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "criarProfile (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTU5OCwiZXhwIjoxNjYzMjY5MTk4fQ.QTCm3U7-cI9XfWEbGRWDiS2TcFMBIsUpmcs_B9Bt05M\")",
+      "time" : {
+        "start" : 1663265598390
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST 200 /api/profile/",
+        "time" : {
+          "start" : 1663265598390,
+          "stop" : 1663265598618,
+          "duration" : 228
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /api/profile/me/",
+        "time" : {
+          "start" : 1663265598619,
+          "stop" : 1663265598848,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **631f533ed8e0e30015cce8e8** to equal **631f533ed8e0e30015cce8e8**",
+        "time" : {
+          "start" : 1663265598852,
+          "stop" : 1663265598852,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "631f533ed8e0e30015cce8e8"
+        }, {
+          "name" : "expected",
+          "value" : "631f533ed8e0e30015cce8e8"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1663265598852,
+          "stop" : 1663265598852,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[GET] - Teste de consulta profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b61b1affc6e09cce.json",
+  "parameterValues" : [ ]
+}

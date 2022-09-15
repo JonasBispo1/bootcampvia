@@ -6,7 +6,7 @@ module.exports = defineConfig({
   viewportWidth: 1140,
   viewportHeight: 768,
   defaultCommandTimeout: 10000,
-  projectId: 'idProject',
+  projectId: 'm3hrzh',
   e2e: {
     setupNodeEvents(on, config) {
       allureWriter(on, config)

@@ -2,37 +2,28 @@ name: ViaOps CI
 on:
   pull_request:
     branches: [ master, release/develop ]
-
-  # schedule: deve utilizar quando for necessário agendamendo para execução
-      # run at *minute  *hours *month *months of the years *days of week
-    # - cron: "* * * * *"
     
   workflow_dispatch:
     inputs:
       amb:
         description: 'Selecionar algum destes ambientes: dev / stg / hlg / prd'
         required: false
-        default: 'stg'
+        default: 'prd'
       browser:
         description: 'Selecionar algum destes browsers: chrome / electron'
         required: true
         default: 'chrome'
-      tag:
-        description: 'Selecionar alguma tag, por exemplo: @regressivo / @smoke / @demo'
-        required: false
-        default: '@demo'
     
 env:
-  DEFAULT_KEY: "inserir-key-cypress-dashboard"
-  DEFAULT_AMB: "stg"
+  DEFAULT_KEY: "b245de5f-5f4a-4c70-8ed5-7ef28646d536"
+  DEFAULT_AMB: "prd"
   DEFAULT_BROWSER: "chrome"
-  DEFAULT_TAG: "@demo"
   DEFAULT_GROUP: "CI"
 
 jobs:
   cypress-run-tests:
     name: Cypress run
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container: cypress/browsers:node14.15.0-chrome96-ff94
     strategy:
       fail-fast: false
@@ -49,7 +40,7 @@ jobs:
       - name: Cypress run tests
         uses: cypress-io/github-action@v4
         with: 
-          command: npx cypress run --record --parallel --group ${{env.DEFAULT_GROUP}} --key ${{env.DEFAULT_KEY}} --browser ${{github.event.inputs.browser || env.DEFAULT_BROWSER}} --env version=${{github.event.inputs.amb || env.DEFAULT_AMB}} grepTags=${{github.event.inputs.tag || env.DEFAULT_TAG}}
+          command: npx cypress run --record --parallel --group ${{env.DEFAULT_GROUP}} --key ${{env.DEFAULT_KEY}} --browser ${{github.event.inputs.browser || env.DEFAULT_BROWSER}} --env version=${{github.event.inputs.amb || env.DEFAULT_AMB}}
 
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master

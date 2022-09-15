@@ -1,0 +1,124 @@
+{
+  "uid" : "ff4ceb2fd323c926",
+  "name" : "Consultar um profile",
+  "fullName" : "Consultar um profile",
+  "historyId" : "62d325aa8db29a115e1b749c3e0b1659",
+  "time" : {
+    "start" : 1663265594570,
+    "stop" : 1663265597893,
+    "duration" : 3323
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265594571,
+        "stop" : 1663265594889,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265594594
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265594594,
+            "stop" : 1663265594888,
+            "duration" : 294
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "GET 200 /api/profile",
+      "time" : {
+        "start" : 1663265594890,
+        "stop" : 1663265597859,
+        "duration" : 2969
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1663265597893,
+        "stop" : 1663265597893,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[GET] - Teste de consulta profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff4ceb2fd323c926.json",
+  "parameterValues" : [ ]
+}

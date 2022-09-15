@@ -1,0 +1,165 @@
+{
+  "uid" : "d3a861d5a05c5634",
+  "name" : "Excluir uma experiencia",
+  "fullName" : "Excluir uma experiencia",
+  "historyId" : "e8e8846228fc96eb9eb38c6666af68ab",
+  "time" : {
+    "start" : 1663265602665,
+    "stop" : 1663265603444,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265602666,
+        "stop" : 1663265602980,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265602688
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265602689,
+            "stop" : 1663265602979,
+            "duration" : 290
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMiwiZXhwIjoxNjYzMjY5MjAyfQ.2_T8fP1jP21O6sL8JNcm_z0nmakPQ3fbCyk76DpbPaQ\"; \"PUT\"; \"/api/profile/experience\"; \"{ title: 'QA',\n  company: 'viahub',\n  location: 'SBC',\n  from: '2021-09-12',\n  to: '2022-09-12',\n  current: false,\n  description: 'nada a declarar' }\")",
+      "time" : {
+        "start" : 1663265602981
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "PUT 200 /api/profile/experience",
+        "time" : {
+          "start" : 1663265602982,
+          "stop" : 1663265603189,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMiwiZXhwIjoxNjYzMjY5MjAyfQ.2_T8fP1jP21O6sL8JNcm_z0nmakPQ3fbCyk76DpbPaQ\"; \"DELETE\"; \"/api/profile/experience/63236b430b3fe900152bc071\"; \"null\")",
+        "time" : {
+          "start" : 1663265603190
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "DELETE 200 /api/profile/experience/63236b430b3fe900152bc071",
+          "time" : {
+            "start" : 1663265603190,
+            "stop" : 1663265603442,
+            "duration" : 252
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1663265603443,
+          "stop" : 1663265603443,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[DELETE] - Teste de exclusão"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3a861d5a05c5634.json",
+  "parameterValues" : [ ]
+}

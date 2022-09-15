@@ -1,0 +1,353 @@
+{
+  "uid" : "45261e6c3d43eca0",
+  "name" : "Deve criar perfil com sucesso",
+  "fullName" : "Deve criar perfil com sucesso",
+  "historyId" : "d770316c1d42fac8d7caa63de6c3c358",
+  "time" : {
+    "start" : 1663265635806,
+    "stop" : 1663265648268,
+    "duration" : 12462
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<h1.large.text-primary>' to contain 'Dashboard'",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<h1.large.text-primary>' to contain 'Dashboard'\n    at Context.eval (https://conexaoqa.herokuapp.com/__cypress/tests?p=cypress\\support\\e2e.js:1527:44)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<h1.large.text-primary>' to contain 'Dashboard'",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<h1.large.text-primary>' to contain 'Dashboard'\n    at Context.eval (https://conexaoqa.herokuapp.com/__cypress/tests?p=cypress\\support\\e2e.js:1527:44)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265635806,
+        "stop" : 1663265636579,
+        "duration" : 773
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit cadastrar",
+        "time" : {
+          "start" : 1663265635824,
+          "stop" : 1663265636578,
+          "duration" : 754
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265636578,
+          "stop" : 1663265636578,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265636578,
+          "stop" : 1663265636578,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=eb60747d15",
+        "time" : {
+          "start" : 1663265636578,
+          "stop" : 1663265636578,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "cadastrarUsuario (\"Jonas Bispo\"; \"jonas.nt@teste.com\"; \"teste1234\")",
+      "time" : {
+        "start" : 1663265636582,
+        "stop" : 1663265648268,
+        "duration" : 11686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get input[name=\"name\"]",
+        "time" : {
+          "start" : 1663265636583,
+          "stop" : 1663265636590,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type Jonas Bispo",
+        "time" : {
+          "start" : 1663265636590,
+          "stop" : 1663265637024,
+          "duration" : 434
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get input[name=\"email\"]",
+        "time" : {
+          "start" : 1663265637024,
+          "stop" : 1663265637035,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type jonas.nt@teste.com",
+        "time" : {
+          "start" : 1663265637035,
+          "stop" : 1663265637455,
+          "duration" : 420
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get input[name=\"password\"]",
+        "time" : {
+          "start" : 1663265637455,
+          "stop" : 1663265637465,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type teste1234",
+        "time" : {
+          "start" : 1663265637465,
+          "stop" : 1663265637840,
+          "duration" : 375
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get input[name=\"password2\"]",
+        "time" : {
+          "start" : 1663265637840,
+          "stop" : 1663265637850,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type teste1234",
+        "time" : {
+          "start" : 1663265637850,
+          "stop" : 1663265638150,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get input[data-test=\"register-submit\"]",
+        "time" : {
+          "start" : 1663265638150,
+          "stop" : 1663265638159,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1663265638159,
+          "stop" : 1663265638253,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://conexaoqa.herokuapp.com/api/users",
+        "time" : {
+          "start" : 1663265638253,
+          "stop" : 1663265638253,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    }, {
+      "name" : "valida_cadastro_sucesso",
+      "time" : {
+        "start" : 1663265638253,
+        "stop" : 1663265648268,
+        "duration" : 10015
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get h1[class=\"large text-primary\"]",
+        "time" : {
+          "start" : 1663265638254,
+          "stop" : 1663265648268,
+          "duration" : 10014
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h1.large.text-primary>** to contain **Dashboard**",
+        "time" : {
+          "start" : 1663265648268,
+          "stop" : 1663265648268,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 20,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "US0002 - Funcionalidade: Cadastro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "45261e6c3d43eca0.json",
+  "parameterValues" : [ ]
+}

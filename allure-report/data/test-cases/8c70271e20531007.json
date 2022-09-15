@@ -1,0 +1,137 @@
+{
+  "uid" : "8c70271e20531007",
+  "name" : "Adicionar nova formação academica",
+  "fullName" : "Adicionar nova formação academica",
+  "historyId" : "8cf9b750212092e2f02e4a02b8645205",
+  "time" : {
+    "start" : 1663265601030,
+    "stop" : 1663265601553,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265601030,
+        "stop" : 1663265601337,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265601047
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265601047,
+            "stop" : 1663265601336,
+            "duration" : 289
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMSwiZXhwIjoxNjYzMjY5MjAxfQ.weP2erBqR-OkDzJxPE0RzwaU_KvMsbBvJGLXka3vblg\"; \"PUT\"; \"/api/profile/education\"; \"{ school: 'escola do bagulho',\n  degree: 'superior',\n  fieldofstudy: 'Engenharia',\n  from: '2021-09-12',\n  to: '2022-09-12',\n  current: false,\n  description: 'engenheiro' }\")",
+      "time" : {
+        "start" : 1663265601338
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "PUT 200 /api/profile/education",
+        "time" : {
+          "start" : 1663265601338,
+          "stop" : 1663265601550,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1663265601552,
+        "stop" : 1663265601552,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[PUT] - Testes de modificação"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c70271e20531007.json",
+  "parameterValues" : [ ]
+}

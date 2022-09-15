@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "1af95cd50da77bae656c1f490130163a",
+    "name" : "US0002 - Funcionalidade: Cadastro",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "aec518f17f6bea1eb059affc504ee64a",
+    "name" : "[GET] - Teste de consulta profile",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "043b70fc5927d974f5ff3efcf539da10",
+    "name" : "[DELETE] - Teste de exclusão",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bfe5c47100366a1f3e0c8117baf4c93c",
+    "name" : "[PUT] - Testes de modificação",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "665c3a83cc68b27639070598c4703b07",
+    "name" : "[POST] - Teste de criação de Profile",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "98db0f63056b91c8f0709d82cb36ed4a",
+    "name" : "Funcionalidade: Visualização dos perfis",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

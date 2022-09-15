@@ -1,0 +1,137 @@
+{
+  "uid" : "b466495aebabe83d",
+  "name" : "criar um profile",
+  "fullName" : "criar um profile",
+  "historyId" : "8f2dedce5848db9de883b8542277ffa5",
+  "time" : {
+    "start" : 1663265592997,
+    "stop" : 1663265594564,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265592999,
+        "stop" : 1663265594333,
+        "duration" : 1334
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265593166
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265593169,
+            "stop" : 1663265594330,
+            "duration" : 1161
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTU5NCwiZXhwIjoxNjYzMjY5MTk0fQ.ncoWYMAiErHGOTEt_TiG_RtoARYKOnCH1k4yzEifSVA\"; \"POST\"; \"/api/profile/\"; \"{ company: 'company LTDA',\n  status: 'motivado',\n  location: 'casa da bruxa',\n  website: 'www.coisanenhuma.com.br',\n  skills: 'automação',\n  bio: 'humano',\n  githubusername: 'JonasBispo1',\n  youtube: 'youtube.com.br',\n  twitter: 'twitter.com.br',\n  facebook: 'facebook.com.br',\n  linkedin: 'linkedin.com.br',\n  instagram: 'instagram.com.br',\n  medium: 'medium.com.br' }\")",
+      "time" : {
+        "start" : 1663265594336
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST 200 /api/profile/",
+        "time" : {
+          "start" : 1663265594337,
+          "stop" : 1663265594557,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1663265594563,
+        "stop" : 1663265594563,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[POST] - Teste de criação de Profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b466495aebabe83d.json",
+  "parameterValues" : [ ]
+}

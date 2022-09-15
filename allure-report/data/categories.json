@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 10000ms: expected '<h1.large.text-primary>' to contain 'Dashboard'",
+      "children" : [ {
+        "name" : "Deve criar perfil com sucesso",
+        "uid" : "45261e6c3d43eca0",
+        "parentUid" : "8c736e4507851b4d73e26447ee5bf5ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1663265635806,
+          "stop" : 1663265648268,
+          "duration" : 12462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c736e4507851b4d73e26447ee5bf5ee"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,121 @@
+[ {
+  "uid" : "b466495aebabe83d",
+  "name" : "criar um profile",
+  "time" : {
+    "start" : 1663265592997,
+    "stop" : 1663265594564,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77507cd1fc4f7bfe",
+  "name" : "Validar lista vazia",
+  "time" : {
+    "start" : 1663265609183,
+    "stop" : 1663265615324,
+    "duration" : 6141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b86486329ca42d43",
+  "name" : "[GET] - Selecionar usuário GITHUB",
+  "time" : {
+    "start" : 1663265599610,
+    "stop" : 1663265600425,
+    "duration" : 815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71d6b8e040babbd9",
+  "name" : "Adicionar experiência proficional",
+  "time" : {
+    "start" : 1663265600426,
+    "stop" : 1663265601029,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b61b1affc6e09cce",
+  "name" : "[GET] - Consultar um profile por ID",
+  "time" : {
+    "start" : 1663265597967,
+    "stop" : 1663265598853,
+    "duration" : 886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9731fb7284b3aac9",
+  "name" : "Excluir uma uducação adicionada",
+  "time" : {
+    "start" : 1663265601554,
+    "stop" : 1663265602663,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c70271e20531007",
+  "name" : "Adicionar nova formação academica",
+  "time" : {
+    "start" : 1663265601030,
+    "stop" : 1663265601553,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff4ceb2fd323c926",
+  "name" : "Consultar um profile",
+  "time" : {
+    "start" : 1663265594570,
+    "stop" : 1663265597893,
+    "duration" : 3323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45261e6c3d43eca0",
+  "name" : "Deve criar perfil com sucesso",
+  "time" : {
+    "start" : 1663265635806,
+    "stop" : 1663265648268,
+    "duration" : 12462
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e92db54660717f",
+  "name" : "Excluir uma conta de usuário",
+  "time" : {
+    "start" : 1663265603446,
+    "stop" : 1663265604350,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3a861d5a05c5634",
+  "name" : "Excluir uma experiencia",
+  "time" : {
+    "start" : 1663265602665,
+    "stop" : 1663265603444,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b9511a05242cdc0",
+  "name" : "[GET] - Selecionar perfil do usuário pelo ID",
+  "time" : {
+    "start" : 1663265598854,
+    "stop" : 1663265599609,
+    "duration" : 755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

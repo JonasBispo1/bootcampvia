@@ -49,6 +49,20 @@ Cypress.Commands.add("login", (email, password) => {
     cy.get('input[type="submit"]').click() 
 })
 
+Cypress.Commands.add("loginApp", () => {
+    cy.request({
+        method:'POST',
+        url: 'api/auth',
+        body: {
+            email:dadosUser[0].email,
+            password: dadosUser[0].senha
+        }
+    }).then((response) => {
+        cy.setCookie('region','BR-SP')
+        window.localStorage.setItem('token',response.body.jwt)
+    })
+})
+
 Cypress.Commands.add("listArray", (cargo, elemento) => {
     cy.get(elemento).then(dropdown => {
         cy.wrap(dropdown).click()

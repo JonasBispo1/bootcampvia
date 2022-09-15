@@ -5,15 +5,24 @@ import dadosUsuarios from "../../fixtures/usuarios.json"
 
 describe('Funcionalidade: Adicionar experiencia', () => {
 
-    beforeEach(() => {
+    /*beforeEach(() => {
         cy.visit('login')
         cy.fixture("usuarios").then((user) => {
             cy.login(user[0].email, user[0].senha)
         })
         cy.visit('adicionar-experiencia')
+    });*/
+
+    beforeEach(() => {
+        cy.loginApp()
+        cy.visit('adicionar-experiencia')
     });
 
-    it.only('Deve adicionar uma experiência com sucesso', () => {
+    it.only('Teste de outra coisa', () => {
+        cy.log(2*2)
+    });
+
+    it('Deve adicionar uma experiência com sucesso', () => {
         cy.fixture("usuarios").then((user) => {
             experienciaPage.addExperiencia(
                 user[0].experiencia_profissional[0].posicao,

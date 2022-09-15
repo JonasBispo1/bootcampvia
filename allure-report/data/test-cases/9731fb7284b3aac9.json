@@ -1,0 +1,165 @@
+{
+  "uid" : "9731fb7284b3aac9",
+  "name" : "Excluir uma uducação adicionada",
+  "fullName" : "Excluir uma uducação adicionada",
+  "historyId" : "7547ee688a634abb577c12f22cc49ff1",
+  "time" : {
+    "start" : 1663265601554,
+    "stop" : 1663265602663,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265601554,
+        "stop" : 1663265602196,
+        "duration" : 642
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265601899
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265601899,
+            "stop" : 1663265602194,
+            "duration" : 295
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMiwiZXhwIjoxNjYzMjY5MjAyfQ.2_T8fP1jP21O6sL8JNcm_z0nmakPQ3fbCyk76DpbPaQ\"; \"PUT\"; \"/api/profile/education\"; \"{ school: 'escola do bagulho',\n  degree: 'superior',\n  fieldofstudy: 'Engenharia',\n  from: '2021-09-12',\n  to: '2022-09-12',\n  current: false,\n  description: 'engenheiro' }\")",
+      "time" : {
+        "start" : 1663265602198
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "PUT 200 /api/profile/education",
+        "time" : {
+          "start" : 1663265602199,
+          "stop" : 1663265602429,
+          "duration" : 230
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMxZjUzMzVkOGUwZTMwMDE1Y2NlOGU3In0sImlhdCI6MTY2MzI2NTYwMiwiZXhwIjoxNjYzMjY5MjAyfQ.2_T8fP1jP21O6sL8JNcm_z0nmakPQ3fbCyk76DpbPaQ\"; \"DELETE\"; \"/api/profile/education/63236b420b3fe900152bc070\"; \"null\")",
+        "time" : {
+          "start" : 1663265602430
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "DELETE 200 /api/profile/education/63236b420b3fe900152bc070",
+          "time" : {
+            "start" : 1663265602430,
+            "stop" : 1663265602661,
+            "duration" : 231
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1663265602663,
+          "stop" : 1663265602663,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[DELETE] - Teste de exclusão"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9731fb7284b3aac9.json",
+  "parameterValues" : [ ]
+}

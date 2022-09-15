@@ -1,0 +1,186 @@
+{
+  "uid" : "66e92db54660717f",
+  "name" : "Excluir uma conta de usuário",
+  "fullName" : "Excluir uma conta de usuário",
+  "historyId" : "27fd6539e9b277feec99c02d5dadf57a",
+  "time" : {
+    "start" : 1663265603446,
+    "stop" : 1663265604350,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1663265603446,
+        "stop" : 1663265603803,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "tokenJwt",
+        "time" : {
+          "start" : 1663265603464
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "POST 200 /api/auth",
+          "time" : {
+            "start" : 1663265603465,
+            "stop" : 1663265603802,
+            "duration" : 337
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "methodAPI (\"null\"; \"POST\"; \"api/users\"; \"{ name: 'teste',\n  email: 'teste@123.com.br',\n  password: 'teste123' }\")",
+      "time" : {
+        "start" : 1663265603804
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST 201 /api/users",
+        "time" : {
+          "start" : 1663265603804,
+          "stop" : 1663265604123,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "methodAPI (\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMyMzZiNDMwYjNmZTkwMDE1MmJjMDcyIn0sImlhdCI6MTY2MzI2NTYwMywiZXhwIjoxNjYzMjY5MjAzfQ.S8KPtqps4uQHpNFXCQ7ruqokDFoNIjVKmGfF7vhKqzU\"; \"DELETE\"; \"api/profile\"; \"null\")",
+        "time" : {
+          "start" : 1663265604124
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "DELETE 200 /api/profile",
+          "time" : {
+            "start" : 1663265604124,
+            "stop" : 1663265604345,
+            "duration" : 221
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **Usuário removido** to equal **Usuário removido**",
+        "time" : {
+          "start" : 1663265604349,
+          "stop" : 1663265604349,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Usuário removido"
+        }, {
+          "name" : "expected",
+          "value" : "Usuário removido"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **200** to equal **200**",
+        "time" : {
+          "start" : 1663265604349,
+          "stop" : 1663265604349,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[DELETE] - Teste de exclusão"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66e92db54660717f.json",
+  "parameterValues" : [ ]
+}

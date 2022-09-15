@@ -1,0 +1,161 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "criar um profile",
+    "uid" : "b466495aebabe83d",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265592997,
+      "stop" : 1663265594564,
+      "duration" : 1567
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Consultar um profile",
+    "uid" : "ff4ceb2fd323c926",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265594570,
+      "stop" : 1663265597893,
+      "duration" : 3323
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[GET] - Consultar um profile por ID",
+    "uid" : "b61b1affc6e09cce",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265597967,
+      "stop" : 1663265598853,
+      "duration" : 886
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[GET] - Selecionar perfil do usuário pelo ID",
+    "uid" : "6b9511a05242cdc0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265598854,
+      "stop" : 1663265599609,
+      "duration" : 755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "[GET] - Selecionar usuário GITHUB",
+    "uid" : "b86486329ca42d43",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265599610,
+      "stop" : 1663265600425,
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Adicionar experiência proficional",
+    "uid" : "71d6b8e040babbd9",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265600426,
+      "stop" : 1663265601029,
+      "duration" : 603
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Adicionar nova formação academica",
+    "uid" : "8c70271e20531007",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265601030,
+      "stop" : 1663265601553,
+      "duration" : 523
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Excluir uma uducação adicionada",
+    "uid" : "9731fb7284b3aac9",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265601554,
+      "stop" : 1663265602663,
+      "duration" : 1109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Excluir uma experiencia",
+    "uid" : "d3a861d5a05c5634",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265602665,
+      "stop" : 1663265603444,
+      "duration" : 779
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Excluir uma conta de usuário",
+    "uid" : "66e92db54660717f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265603446,
+      "stop" : 1663265604350,
+      "duration" : 904
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar lista vazia",
+    "uid" : "77507cd1fc4f7bfe",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663265609183,
+      "stop" : 1663265615324,
+      "duration" : 6141
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve criar perfil com sucesso",
+    "uid" : "45261e6c3d43eca0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1663265635806,
+      "stop" : 1663265648268,
+      "duration" : 12462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}
