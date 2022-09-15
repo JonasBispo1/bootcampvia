@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 19:31:08 GMT 2022","Thu Sep 15 19:31:12 GMT 2022","3770","","Funcionalidade: Visualização dos perfis","","","","Validar lista vazia",""
+"failed","Thu Sep 15 19:30:29 GMT 2022","Thu Sep 15 19:30:30 GMT 2022","292","Validar API Destaque","Dado que executo a busca por sku e lojista","","","","Então a consulta será executada com sucesso",""
+"failed","Thu Sep 15 19:30:46 GMT 2022","Thu Sep 15 19:30:59 GMT 2022","13464","","US0002 - Funcionalidade: Cadastro","","","","Deve criar perfil com sucesso",""
+"failed","Thu Sep 15 19:29:59 GMT 2022","Thu Sep 15 19:30:29 GMT 2022","30312","Validar API Destaque","Dado que executo a busca por sku e lojista","","","","Quando executo um requisição com o metodo GET, passando o SKU e lojista",""
