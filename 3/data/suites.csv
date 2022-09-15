@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Thu Sep 15 19:31:16 GMT 2022","Thu Sep 15 19:31:17 GMT 2022","585","","Teste de alteração de postagem","","","","[PUT] - curtir uma postagem",""
-"failed","Thu Sep 15 19:29:58 GMT 2022","Thu Sep 15 19:30:09 GMT 2022","10476","Validar a home","Dado que acesso a home","","","","Então devo visualizar a logo e ser direcionado para www.casasbahia.com.br",""
-"failed","Thu Sep 15 19:30:19 GMT 2022","Thu Sep 15 19:30:30 GMT 2022","10434","Validar a home","Dado que realizo a busca de produtos","","","","Quando insiro uma descrição no campo ""O que vocé está procurando""",""
-"passed","Thu Sep 15 19:31:08 GMT 2022","Thu Sep 15 19:31:11 GMT 2022","3126","","US0001 - Funcionalidade: Login","","","","Deve fazer login com sucesso - Usando fixture",""
-"failed","Thu Sep 15 19:30:40 GMT 2022","Thu Sep 15 19:30:51 GMT 2022","10486","Validar a home","Dado que realizo a busca de produtos","","","","Então devo ser direcionado para tela de busca de produtos",""
-"failed","Thu Sep 15 19:30:30 GMT 2022","Thu Sep 15 19:30:40 GMT 2022","10456","Validar a home","Dado que realizo a busca de produtos","","","","E clico na ""lupa""",""
-"failed","Thu Sep 15 19:30:09 GMT 2022","Thu Sep 15 19:30:19 GMT 2022","10509","Validar a home","Dado que acesso a home","","","","E devo visualizar o campo de busca e exibir o ""O que você está procurando?""",""

@@ -1,1 +1,1 @@
-{"total":3,"items":[{"uid":"8c7e69a03ec76fad5d57650ab6ff8263","name":"Validar a home","statistic":{"failed":5,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":5}},{"uid":"eb525a69361a157c386a6529544e40bb","name":"Teste de alteração de postagem","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"e94993b2862a9ef5dd3453b44eef2505","name":"US0001 - Funcionalidade: Login","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":0,"items":[]}
