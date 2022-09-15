@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Sep 15 19:06:56 GMT 2022","Thu Sep 15 19:06:59 GMT 2022","3269","","Funcionalidade: Adicionar formação academica","","","","Deve adicionar uma formação com sucesso usando import",""
+"failed","Thu Sep 15 19:07:04 GMT 2022","Thu Sep 15 19:07:06 GMT 2022","2278","","Funcionalidade: Adicionar formação academica","","","","Deve realizar adicionar cadastro sem informar curso",""
+"failed","Thu Sep 15 19:06:13 GMT 2022","Thu Sep 15 19:06:43 GMT 2022","30259","Validar API SEO","Dado que executo a consulta por sku","","","","Quando executo um GET em SEO, com o SKU",""
+"failed","Thu Sep 15 19:06:59 GMT 2022","Thu Sep 15 19:07:02 GMT 2022","3218","","Funcionalidade: Adicionar formação academica","","","","Deve adicionar uma formação atual",""
+"passed","Thu Sep 15 19:07:14 GMT 2022","Thu Sep 15 19:07:15 GMT 2022","890","","Funcionalidade: Adicionar experiencia","","","","Teste de outra coisa",""
+"failed","Thu Sep 15 19:06:43 GMT 2022","Thu Sep 15 19:06:43 GMT 2022","300","Validar API SEO","Dado que executo a consulta por sku","","","","Então a consulta será executada com sucesso",""
+"failed","Thu Sep 15 19:07:02 GMT 2022","Thu Sep 15 19:07:04 GMT 2022","1635","","Funcionalidade: Adicionar formação academica","","","","Deve adicionar formação academica de todos usuários cadastrados na lista(extra-classe)",""
