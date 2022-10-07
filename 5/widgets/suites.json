@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"1349d199469a8b63f71e3846eead37d1","name":"Validar meus pedidos","statistic":{"failed":3,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":3}}]}
+{"total":4,"items":[{"uid":"49a08033514e5c67af0608c298494777","name":"Funcionalidade: Adicionar formação academica","statistic":{"failed":4,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":4}},{"uid":"e94993b2862a9ef5dd3453b44eef2505","name":"US0001 - Funcionalidade: Login","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
